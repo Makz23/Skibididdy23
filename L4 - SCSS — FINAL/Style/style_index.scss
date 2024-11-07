@@ -1,0 +1,15 @@
+// https://sass-lang.com/
+// -------------------------------------------
+@import "./StyleGenral/reset";
+@import "./StyleGenral/values";
+@import "./StyleGenral/mixin";
+@import "./StyleGenral/body";
+@import "./StyleGenral/aplay_to_all";
+// -------------------------------------------
+@import "./StyleGenral/heder";
+@import "./StyleGenral/footer";
+// ----------------------------------------------
+@import "./StyleIndex/section-1.scss";
+@import "./StyleIndex/section-2.scss";
+@import "./StyleIndex/section-3.scss";
+@import "./StyleIndex/section-4.scss";

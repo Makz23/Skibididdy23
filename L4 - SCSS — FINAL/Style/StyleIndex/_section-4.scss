@@ -1,0 +1,33 @@
+.section-4 {
+    margin-left: 200px;
+    margin-top: 16vh;
+    width: 100vw;
+    border-bottom: $font1 solid $color2;
+    border-left: $font6 solid $color2;
+    
+    &__content {
+
+      width: 50%;
+      height: auto;
+      display: flex;
+      flex: 1;
+      gap: 50px;
+      &--image {
+        width: 500px;
+        img {
+          width: 100%;
+          border-radius: 50%;
+          margin-left: 50px;
+        }
+      }
+      &--text {
+        color: $color3;
+        width: 1200px;
+        padding: 2em;
+        h1 {
+            font-size: $font2;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }

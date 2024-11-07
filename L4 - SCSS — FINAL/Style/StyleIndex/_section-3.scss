@@ -1,0 +1,12 @@
+.section-3 {
+    margin-top: 16vh;
+    width: 90%;
+    height: 90%;
+    width: 100%;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex: 1;
+    gap: 50px;
+}

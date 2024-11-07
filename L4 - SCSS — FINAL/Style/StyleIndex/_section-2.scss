@@ -1,0 +1,36 @@
+.section-2 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px; 
+    margin-top: 50px;
+
+    &__box {
+        flex-direction: column;   
+        align-items: center;      
+        text-align: center;
+
+        &--image {
+            width: 220px;         
+            height: 220px;        
+            border-radius: 50%; //kółeczko
+            object-fit: cover;
+            margin-top: 400px;
+        }
+
+        &--caption {
+            text-align: center;
+            font-size: 32px;      
+            margin-top: 15px;     
+            color: $color3;
+        }
+
+        &--middle {
+            .section-2__box--image {
+                width: 400px;     
+                height: 400px;
+                margin-top: 20px; 
+            }
+        }
+    }
+}
